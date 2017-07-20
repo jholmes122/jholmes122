@@ -1,0 +1,147 @@
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	background-color: white;
+	padding: 30px;
+	font-size: 40px;
+}
+
+#landing-title {
+	margin: 50px;
+	font-size: 60px;
+}
+
+#landing-subtitle
+{
+	margin: 10px;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	padding: 20px;
+}
+
+p {
+	font-size: 18px;
+    font-weight: lighter;
+}
+
+.parallax{ 
+    /* The image used */
+    background-image: url("../images/banner2.png");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+#banner-container {
+	padding: 0px;
+}
+
+.body-section {
+	background-color: #F6F6F6;
+}
+
+#LnLink {
+	margin-top: 6px;
+}
+
+.card {
+	text-align: center !important;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.card-image {
+	width: 100%;
+}
+
+.nav-text
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.div_highlight
+{
+	background-color: #9a9fa5;
+}
+
+#playspaceVideo
+{
+	padding:50px;
+}
+
+.padded-text {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.bg-color-2 {
+	background-color: #F6F6F6 !important;
+}
+
+#div-video-embedded {
+	max-width: 912px;
+	margin: auto;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.full-size-image
+{
+	max-width:100%;
+}
+
+.margin-bottom {
+	margin-bottom: 40px;
+}
+
+.navbar {
+	
+}
+
+
+@media(max-width: 991px) {
+	.main-navbar {
+		padding-bottom: 48px;
+	}
+
+	.right-navbar {
+		display: none;
+	}
+}
+
+#footer {
+	text-align: center;
+	padding: 10px;
+}
+
+#footer > a {
+	padding: 5px;
+}

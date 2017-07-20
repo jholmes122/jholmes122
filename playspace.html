@@ -1,0 +1,110 @@
+<head>
+   <meta charset="utf-8">
+   <title>Landing Page</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+   <!-- Latest compiled and minified bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+   <!--For badges-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+   <div>
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded main-navbar">
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+               </li> <!--Navbar-list-element-->
+               <li class="nav-item">
+                  <a class="nav-link" href="cellular.html">Cellular</a>
+               </li> <!--Navbar-list-element-->
+               <li class="nav-item">
+                  <a class="nav-link" href="blender.html">Blender</a>
+               </li> <!--Navbar-list-element-->
+               <li class="nav-item">
+                  <a class="nav-link active" href="playspace.html">PlaySpaceVR</a>
+               </li> <!--Navbar-list-element-->
+            </ul> <!--Navbar-List-->
+            <ul class="navbar-nav mr-auto navbar-toggler-right right-navbar">
+      <li class="nav-item">
+      <a href="mailto:jpholmes122@gmail.com">
+        <span class="navbar-text nav-text">jpholmes122@gmail.com</span>
+      </a>
+      </li>
+      <li class="nav-item">
+        <span class="navbar-text nav-text">07523744941</span>
+      </li>
+    </ul>
+         </div> <!--Navbar-->
+      </nav> <!--Navbar-->
+
+      <div>
+         <h1 class="text-center" id="landing-title">PlaySpaceVR</h1>
+         <h2 class="text-center">A VR Unity3D Game</h2>
+      </div> <!--Title and subtitle-->
+
+      <div class="container-fluid div_highlight">
+      <div id="div-video-embedded">
+         <!-- 16:9 aspect ratio -->
+         <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" id="playspaceVideo" src="https://www.youtube.com/embed/6GpEoGTDQng?ecver=2"></iframe>
+         </div>
+         </div>
+      </div> <!--Youtube-Video-->
+
+      <div class=container-fluid>
+         <div class="padded-text text-center">
+            <p>The main motivation behind creating PlaySpace was to further improve my skills and experience in both Unity3D and Blender. However, as most of my creative projects do, it soon took a hold of me and I just couldn't stop working on it!</p>
+         </div> <!--InfoText-->
+         <div class="text-center custom-div">
+            <img class="img-fluid full-size-image" src="images/playspace_image4.png">
+         </div>
+
+         <div class="padded-text text-center">
+            <p>The design choice of building a series of mini-games instead of one structured game was a conscious one. This allowed me to explore the most effective and enjoyable ways thus far of using VR. I took inspiration from already popular games like 'Tilt Brush' and 'The Lab', whilst also trying to ensure as much originality as possible.</p>
+         </div> <!--InfoText-->
+         <div class="text-center custom-div">
+            <img class="img-fluid full-size-image" src="images/playspace_image5.png">
+         </div>
+         <div class="text-center custom-div">
+            <img class="img-fluid full-size-image" src="images/playspace_image3.png">
+         </div>
+         <div class="padded-text text-center">
+            <p>The project enabled me to better understand for the issues that are important to get right in VR. For example, good optimization is essential to ensure high frame rate (>= 90fps) to prevent motion sickness). In terms of immersive locomotion, there is no flawless solution. Teleportation allows freedom of movement but reduces immersion. 1:1 movement prevents motion sickness and is the most immersive type of movement, but you are restricted to the space you are playing in. I made the design choice of choosing 1:1 movement, and designed my mini-games to be restricted to the play space available, as I felt this was the most immersive experience. </p>
+         </div> <!--InfoText-->
+         <div class="text-center custom-div">
+            <img class="img-fluid full-size-image" src="images/playspace_image1.png">
+         </div>
+         <div class="text-center custom-div">
+            <img class="img-fluid full-size-image" src="images/playspace_image2.png">
+         </div>
+            <div class="padded-text text-center bg-color-2">
+            <p>For a video demo, see the YouTube video at the top of this page</p>
+
+                 <div id="footer">
+      <a href="mailto:jpholmes122@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a href="https://github.com/HappyAdjustableSpanners"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/jonathan-holmes/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  </div>
+         </div> <!--InfoText-->
+
+
+      </div>
+  
+
+
+   </div>
+
+   <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
